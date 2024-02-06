@@ -12,10 +12,6 @@ public class EsercizioD2Application {
 
 		SpringApplication.run(EsercizioD2Application.class, args);
 
-		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(EsercizioD2Application.class);
-
-		Menu m = (Menu) ctx.getBean("menu");
-		m.print();
 	}
 
 }
